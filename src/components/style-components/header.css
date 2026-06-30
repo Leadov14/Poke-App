@@ -1,0 +1,31 @@
+.contenedor-header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: #EE1515;
+    padding: 10px;
+    border-bottom: 4px solid #222222;
+}
+
+.logo-header {
+    height: 70px;
+}
+
+.nav-header {
+    position: relative;
+    top: 18px;
+}
+
+.enlace-nav {
+    text-decoration: none;
+    color:#222222;
+    font-size: 20px;
+    padding-right: 70px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.enlace-nav:hover {
+    color: #ccc;
+}

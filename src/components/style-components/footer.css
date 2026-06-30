@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.contenedor-footer {
+    background-color: #222222;
+    width: 100%;
+}
+
+.contenedor-footer p {
+    color:antiquewhite;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 11px;
+}

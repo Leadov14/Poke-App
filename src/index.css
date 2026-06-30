@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.error-pag {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #334155;
+}

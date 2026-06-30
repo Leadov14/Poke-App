@@ -1,0 +1,29 @@
+.next-prev {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.page-item {
+    list-style: none;
+}
+
+.page-link {
+    background-color: #2a75bb;
+    border: none; 
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    cursor: pointer; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+    transition: all 0.2s ease;
+}
+
+.page-link:active {
+    transform: scale(0.98);
+    background-color: #3c5aa6;
+}
