@@ -25,8 +25,10 @@
 } 
 
 .imagen-pkm {
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
+    margin-top: 30px;
+
 }
 
 .pokemon-nombre {

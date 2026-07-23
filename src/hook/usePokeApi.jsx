@@ -9,7 +9,7 @@ const listaPkm = async (results) => {
         return {
             id: data.id,
             name: data.name,
-            imagen: data.sprites.front_default,
+            imagen: data.sprites.other.dream_world.front_default,
             tipos: data.types.map(t => t.type.name)
         };
     });
@@ -58,7 +58,7 @@ export function usePokeApi() {
             const pokemonEncontrado = {
                 id: data.id,
                 name: data.name,
-                imagen: data.sprites.front_default, 
+                imagen: data.sprites.other.dream_world.front_default,
                 tipos: data.types.map(t => t.type.name)
             };
 
