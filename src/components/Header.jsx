@@ -10,7 +10,6 @@ function Header() {
 
             <nav className='nav-header'>
                 <NavLink to="/" className="enlace-nav">Inicio</NavLink>
-                <NavLink to="/contacto" className="enlace-nav">Contacto</NavLink>
             </nav>
 
         </header>
